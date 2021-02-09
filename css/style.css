@@ -1,0 +1,122 @@
+
+
+body {
+  font-size: 16px !important;
+}
+
+#font-white {
+  color: white;
+} 
+
+#font-green {
+  color: green;
+}
+
+#font-red {
+  color: red;
+}
+
+.headerText {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: 900;
+  font-size: 25px;
+}
+/*header image layout*/
+.brignTop {
+  z-index: 2;
+}
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*flex for header*/
+
+.how-section1{
+  margin-top:-15%;
+  padding: 10%;
+}
+
+.container__flex{
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  margin: auto;
+}
+.container__flex_column {
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.flex__item1 {
+  margin-right: auto;
+  padding: 10px;
+}
+.flex__item {
+  padding: 10px;
+}
+.padding_item {
+  padding: 30px;
+}
+/*flex header ends*/
+
+.card__padding {
+  margin-top: 20px;
+}
+
+/* drop down for category */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*
+   Admin side product image 
+  */
+  .admin_product_img {
+    max-width: 300px;
+    max-height: 150px;
+  }
+
+  /* login form*/
+.my__container {
+  width: 50%;
+  margin-right: auto;
+}
+
+/*
+disbling link design
+*/
+.nolink {
+  text-decoration: none;
+  color: black;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 900px) {
+  .my__container {
+    margin: auto;
+  }
+}
